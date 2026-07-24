@@ -19,7 +19,7 @@
 
 <a href="https://maatimpact.com"><img src="https://img.shields.io/badge/🌐_maatimpact.com-0A0A0A?style=for-the-badge&labelColor=0A0A0A" /></a>
 <a href="https://www.linkedin.com/company/maatimpact"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:hello@maatimpact.com"><img src="https://img.shields.io/badge/hello@maatimpact.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:hello@maatimpact.com"><img src="https://img.shields.io/badge/equipo.maat@maatimpact.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <br/>
 
