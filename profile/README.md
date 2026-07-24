@@ -52,17 +52,6 @@ Hacemos que el impacto social deje de ser una hoja de Excel y se convierta en **
 
 <br/>
 
-## 🏢 Confían en nosotros
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Allianz-003781?style=for-the-badge&logo=allianz&logoColor=white" />
-<img src="https://img.shields.io/badge/Reale_Seguros-E2231A?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Molecor-1A8F3C?style=for-the-badge" />
-
-</div>
-
-<br/>
 
 ## 🛠️ Stack tecnológico
 
