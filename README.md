@@ -48,19 +48,13 @@ Hacemos que el impacto social deje de ser una hoja de Excel y se convierta en **
 | 🤝 **Voluntariado corporativo** | Catálogo de ONGs verificadas, inscripciones, asistencia con QR, encuestas y certificados. |
 | 📊 **Reporting ESG & CSRD** | Métricas de impacto auditables, exportables y alineadas con ESRS. |
 | 🎯 **Engagement** | Gamificación, rankings, mentoría y comunicación interna integrada. |
-| 🔐 **Compliance by design** | RBAC + MFA, cifrado AES-256-GCM, RPO < 1h, SSDLC con 19 controles en CI/CD. |
+| 🔐 **Seguridad desde el diseño** | RBAC + MFA, cifrado AES-256-GCM, RPO < 1h, SSDLC con 19 controles en CI/CD. |
 
 <br/>
 
-## 🏢 Confían en nosotros
+## 🏢 Para quién trabajamos
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/Allianz-003781?style=for-the-badge&logo=allianz&logoColor=white" />
-<img src="https://img.shields.io/badge/Reale_Seguros-E2231A?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Molecor-1A8F3C?style=for-the-badge" />
-
-</div>
+Grandes empresas de los sectores asegurador, financiero, industrial y de servicios que quieren gestionar y medir su voluntariado corporativo.
 
 <br/>
 
@@ -93,16 +87,18 @@ Hacemos que el impacto social deje de ser una hoja de Excel y se convierta en **
 
 <div align="center">
 
-![ISO 27001](https://img.shields.io/badge/ISO/IEC_27001-Aligned-1f6feb?style=for-the-badge)
-![ENS](https://img.shields.io/badge/ENS-Media-2EA043?style=for-the-badge)
-![GDPR](https://img.shields.io/badge/GDPR-Compliant-003399?style=for-the-badge)
-![LSSI-CE](https://img.shields.io/badge/LSSI--CE-Compliant-555555?style=for-the-badge)
+![ISO 27001](https://img.shields.io/badge/ISO/IEC_27001-Alineado-1f6feb?style=for-the-badge)
+![ENS](https://img.shields.io/badge/ENS_Media-Alineado-2EA043?style=for-the-badge)
+![RGPD](https://img.shields.io/badge/RGPD-Privacidad_desde_el_diseño-003399?style=for-the-badge)
 ![AES-256-GCM](https://img.shields.io/badge/Encryption-AES--256--GCM-8957e5?style=for-the-badge)
 
 </div>
 
-Nuestro pipeline ejecuta **19 gates de seguridad** en cada commit: Gitleaks · Trivy · Semgrep · Cosign · OWASP ZAP · Nuclei · Checkov.  
-Infraestructura en **GCP `europe-west1`** con datos residentes en la UE, PITR con **RPO < 1h** y minimización de datos por configuración (GDPR Art. 5.1.c).
+<!-- CONFIRMAR CON MARIO: ¿los 19 controles se ejecutan en cada commit o en cada despliegue? Ajustar la frase siguiente. -->
+Nuestro pipeline ejecuta **19 controles de seguridad** en cada despliegue: Gitleaks · Trivy · Semgrep · Cosign · OWASP ZAP · Nuclei · Checkov.  
+Infraestructura principal en **Google Cloud `europe-west1` (UE)**, con recuperación a un momento concreto (**RPO < 1h**) y minimización de datos por configuración (RGPD, art. 5.1.c).
+
+No somos una empresa certificada en ISO 27001 ni en el ENS: aplicamos sus controles como referencia.
 
 <br/>
 
