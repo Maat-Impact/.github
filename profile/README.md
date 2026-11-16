@@ -48,7 +48,7 @@ Hacemos que el impacto social deje de ser una hoja de Excel y se convierta en **
 | 🤝 **Voluntariado corporativo** | Catálogo de ONGs verificadas, inscripciones, asistencia con QR, encuestas y certificados. |
 | 📊 **Reporting ESG & CSRD** | Métricas de impacto auditables, exportables y alineadas con ESRS. |
 | 🎯 **Engagement** | Gamificación, rankings, mentoría y comunicación interna integrada. |
-| 🔐 **Compliance by design** | RBAC + MFA, cifrado AES-256-GCM, RPO < 1h, SSDLC con 19 controles en CI/CD. |
+| 🔐 **Seguridad desde el diseño** | Control de acceso por roles con MFA, cifrado en tránsito y en reposo, RPO < 1h, SSDLC con 19 controles en CI/CD. |
 
 <br/>
 
@@ -80,18 +80,10 @@ Hacemos que el impacto social deje de ser una hoja de Excel y se convierta en **
 
 ## 🔐 Seguridad & cumplimiento
 
-<div align="center">
-
-![ISO 27001](https://img.shields.io/badge/ISO/IEC_27001-Aligned-1f6feb?style=for-the-badge)
-![ENS](https://img.shields.io/badge/ENS-Media-2EA043?style=for-the-badge)
-![GDPR](https://img.shields.io/badge/GDPR-Compliant-003399?style=for-the-badge)
-![LSSI-CE](https://img.shields.io/badge/LSSI--CE-Compliant-555555?style=for-the-badge)
-![AES-256-GCM](https://img.shields.io/badge/Encryption-AES--256--GCM-8957e5?style=for-the-badge)
-
-</div>
+Tomamos como referencia **ISO/IEC 27001** y el **Esquema Nacional de Seguridad**, sin certificación por ahora: la certificación ISO/IEC 27001 está en nuestra hoja de ruta.
 
 Nuestro pipeline ejecuta **19 gates de seguridad** en cada commit: Gitleaks · Trivy · Semgrep · Cosign · OWASP ZAP · Nuclei · Checkov.  
-Infraestructura en **GCP `europe-west1`** con datos residentes en la UE, PITR con **RPO < 1h** y minimización de datos por configuración (GDPR Art. 5.1.c).
+La plataforma y su base de datos se alojan en la UE (**GCP `europe-west1`**), con PITR y **RPO < 1h**, y minimización de datos por configuración (RGPD, art. 5.1.c).
 
 <br/>
 
